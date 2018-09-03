@@ -1,6 +1,7 @@
 import React from 'react';
-import './SearchBar.js';
-import '../BusinessList/BusinessList';
+import './SearchBar.css';
+import BusinessList from '../BusinessList/BusinessList';
+//import ReactDOM from 'react-dom';
 
 
 const sortByOptions = {
@@ -37,4 +38,5 @@ render(){
   );
 }
 }
+//ReactDOM.render(<SearchBar/>, document.getElementById('app'));
 export default SearchBar;
